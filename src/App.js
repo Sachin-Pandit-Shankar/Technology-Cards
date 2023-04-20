@@ -41,7 +41,7 @@ const App = () => (
     <div>
       <h1 className="Title">Learn 4.0 Technologies</h1>
       <p className="title-text">
-        Get Trained by alumni of IIT and Top companies like Amazon,Microsoft,
+        Get trained by alumni of IITs and top companies like Amazon,Microsoft,
         intel, Qual, etc. Learn Directly from professional, involve in product
         Development.
       </p>
