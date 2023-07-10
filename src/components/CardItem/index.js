@@ -2,16 +2,15 @@
 import './index.css'
 
 const CardItem = props => {
-  const {allItem} = props
-  const {title, description, imgUrl, className} = allItem
+  const {cardDetails} = props
+  const {title, description, imgUrl, className} = cardDetails
   return (
-    <div className={className}>
-      <h1 className="main-heading">{title}</h1>
-      <p className="description">{description}</p>
-      <div>
-        <img src={imgUrl} alt="Data Scientist" className="image" />
-      </div>
-    </div>
+    <li className={className}>
+      <h1 className="card-heading">{title}</h1>
+      <p className="card-description">{description}</p>
+
+      <img src={imgUrl} alt={title} className="card-img" />
+    </li>
   )
 }
 export default CardItem
